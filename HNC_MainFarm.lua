@@ -143,9 +143,9 @@ v5.Window = function(v134, v135)
 	v147.BackgroundTransparency = 0.3;
 	v147.Position = UDim2.new(0.5, 0, 0.5, 0);
 	v147.Size = UDim2.new(0, 0, 0, 0);
-	v147:TweenSize(UDim2.new(0, 656, 0, 400), "Out", "Quad", 0, true);
-	v147:TweenSize(UDim2.new(0, 656, 0, 350), "Out", "Quad", 0, true);
-	v147:TweenSize(UDim2.new(0, 555, 0, 352), "Out", "Quad", 0, true);
+	v147:TweenSize(UDim2.new(0, 556, 0, 300), "Out", "Quad", 0, true);
+	v147:TweenSize(UDim2.new(0, 556, 0, 250), "Out", "Quad", 0, true);
+	v147:TweenSize(UDim2.new(0, 455, 0, 252), "Out", "Quad", 0, true);
 	local v156 = Instance.new("UIStroke");
 	v156.Name = "BtnStroke";
 	v156.Parent = v147;
@@ -277,7 +277,7 @@ v5.Window = function(v134, v135)
 				v147:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Quad", 0, true);
 			else
 				v137 = false;
-				v147:TweenSize(UDim2.new(0, 556, 0, 350), "Out", "Quad", 0, true);
+				v147:TweenSize(UDim2.new(0, 456, 0, 250), "Out", "Quad", 0, true);
 			end
 		end
 	end);
@@ -7502,7 +7502,7 @@ if World3 then
 		end
 	end);
 	v70:Seperator("Soul Guitar");
-	v70:Toggle("Auto Soul Guitar ( Test )", _G.Guitar, function(v1451)
+	v70:Toggle("Auto Soul Guitar (Beta)", _G.Guitar, function(v1451)
 		_G.Guitar = v1451;
 		StopTween(_G.Guitar);
 	end);
@@ -7677,7 +7677,7 @@ if World3 then
 		end
 	end);
 	v70:Seperator("Dual Curse Katana");
-	v70:Toggle("Auto Dual Curse Katana ( Test )", _G.Cdk, function(v1455)
+	v70:Toggle("Auto Dual Curse Katana (Beta)", _G.Cdk, function(v1455)
 		_G.CDK = v1455;
 		StopTween(_G.CDK);
 	end);
@@ -11959,9 +11959,9 @@ v79:Button("Change Buso Haki State", function()
 end);
 local v122 = game:GetService("Players");
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Test Roblox Hub",
+	Title = "HNC Hub",
 	Text = "Loading...",
-	Icon = "rbxthumb://type=Asset&id=83190276951914&w=150&h=150",
+	Icon = "rbxassetid://112528931029640",
 	Duration = 10
 });
 spawn(function()

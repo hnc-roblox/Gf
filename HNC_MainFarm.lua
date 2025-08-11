@@ -143,9 +143,9 @@ v5.Window = function(v134, v135)
 	v147.BackgroundTransparency = 0.3;
 	v147.Position = UDim2.new(0.5, 0, 0.5, 0);
 	v147.Size = UDim2.new(0, 0, 0, 0);
-	v147:TweenSize(UDim2.new(0, 556, 0, 300), "Out", "Quad", 0, true);
-	v147:TweenSize(UDim2.new(0, 556, 0, 250), "Out", "Quad", 0, true);
-	v147:TweenSize(UDim2.new(0, 455, 0, 252), "Out", "Quad", 0, true);
+	v147:TweenSize(UDim2.new(0, 656, 0, 300), "Out", "Quad", 0, true);
+	v147:TweenSize(UDim2.new(0, 656, 0, 250), "Out", "Quad", 0, true);
+	v147:TweenSize(UDim2.new(0, 555, 0, 252), "Out", "Quad", 0, true);
 	local v156 = Instance.new("UIStroke");
 	v156.Name = "BtnStroke";
 	v156.Parent = v147;

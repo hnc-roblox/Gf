@@ -139,7 +139,7 @@ v5.Window = function(v134, v135)
 	v147.Parent = v141;
 	v147.ClipsDescendants = true;
 	v147.AnchorPoint = Vector2.new(0.5, 0.5);
-	v147.BackgroundColor3 = Color3.fromRGB(216, 221, 86);
+	v147.BackgroundColor3 = Color3.fromRGB(16, 42, 220);
 	v147.BackgroundTransparency = 0.3;
 	v147.Position = UDim2.new(0.5, 0, 0.5, 0);
 	v147.Size = UDim2.new(0, 0, 0, 0);
@@ -165,7 +165,7 @@ v5.Window = function(v134, v135)
 	v170.BackgroundTransparency = 1.1;
 	v170.Position = UDim2.new(0.405426834, 0, 0.075000003, 0);
 	v170.Size = UDim2.new(0, 263, 0, 325);
-	v170.Image = "http://www.roblox.com/asset/?id="   .. tostring(83190276951914) ;
+	v170.Image = "http://www.roblox.com/asset/?id=112528931029640"   .. tostring(83190276951914) ;
 	local v178 = Instance.new("UICorner");
 	v178.Name = "MCNR";
 	v178.Parent = v147;
@@ -200,19 +200,19 @@ v5.Window = function(v134, v135)
 	local v211 = Instance.new("TextLabel");
 	v211.Name = "patch";
 	v211.Parent = v187;
-	v211.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+	v211.BackgroundColor3 = Color3.fromRGB(98, 37, 209);
 	v211.BackgroundTransparency = 1;
 	v211.Position = UDim2.new(0, 200, 0.05, 0);
 	v211.Size = UDim2.new(0, 255, 0.05, 25);
 	v211.Font = Enum.Font.SourceSansBold;
 	v211.Text = " ";
 	v211.TextSize = 17;
-	v211.TextColor3 = Color3.fromRGB(43, 43, 43);
+	v211.TextColor3 = Color3.fromRGB(98, 37, 209);
 	v211.TextXAlignment = Enum.TextXAlignment.Left;
 	local v223 = Instance.new("Frame");
 	v223.Name = "Tab";
 	v223.Parent = v147;
-	v223.BackgroundColor3 = Color3.fromRGB(52, 142, 64);
+	v223.BackgroundColor3 = Color3.fromRGB(16, 42, 220);
 	v223.Position = UDim2.new(0, 14, 0, 33);
 	v223.BackgroundTransparency = 1;
 	v223.Size = UDim2.new(0, 138, 0, 307);
@@ -221,7 +221,7 @@ v5.Window = function(v134, v135)
 	v230.Name = "ScrollTab";
 	v230.Parent = v223;
 	v230.Active = true;
-	v230.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+	v230.BackgroundColor3 = Color3.fromRGB(16, 42, 220);
 	v230.Position = UDim2.new(0, 0, 0, 0);
 	v230.BackgroundTransparency = 1;
 	v230.Size = UDim2.new(0, 138, 0, 307);
@@ -241,7 +241,7 @@ v5.Window = function(v134, v135)
 	local v170 = Instance.new("Frame");
 	v170.Name = "Page";
 	v170.Parent = v147;
-	v170.BackgroundColor3 = Color3.fromRGB(177, 229, 166);
+	v170.BackgroundColor3 = Color3.fromRGB(16, 42, 220);
 	v170.Position = UDim2.new(0, 162, 0, 33);
 	v170.Size = UDim2.new(0, 380, 0, 308);
 	v170.BackgroundTransparency = 1;
@@ -252,7 +252,7 @@ v5.Window = function(v134, v135)
 	v254.Name = "MainPage";
 	v254.Parent = v170;
 	v254.ClipsDescendants = true;
-	v254.BackgroundColor3 = Color3.fromRGB(255, 255, 0);
+	v254.BackgroundColor3 = Color3.fromRGB(16, 42, 220);
 	v254.BackgroundTransparency = 1;
 	v254.Size = UDim2.new(0, 380, 0, 307);
 	local v261 = Instance.new("Folder");
@@ -312,7 +312,7 @@ v5.Window = function(v134, v135)
 		local v669 = Instance.new("ImageLabel");
 		v669.Name = "LogoIDK";
 		v669.Parent = v643;
-		v669.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+		v669.BackgroundColor3 = Color3.fromRGB(98, 37, 209);
 		v669.BackgroundTransparency = 1;
 		v669.Position = UDim2.new(0, 6, 0, 4.5);
 		v669.Size = UDim2.new(0, 20, 0, 20);
@@ -3016,23 +3016,23 @@ v1.spawn(function()
 	end
 end);
 local v66 = v5:Window(Enum.KeyCode.RightControl);
-local v67 = v66:T("Tab Status", "rbxassetid://10734984606");
-local v68 = v66:T("Tab General", "rbxassetid://10723407389");
-local v69 = v66:T("Tab Setting Other", "rbxassetid://10734950309");
-local v70 = v66:T("Tab Item", "rbxassetid://10734975692");
-local v71 = v66:T("Tab Race & Mirage", "rbxassetid://10747372167");
-local v72 = v66:T("Tab Sea Event", "rbxassetid://10709761530");
-local v73 = v66:T("Tab Local Player", "rbxassetid://10747373176");
-local v74 = v66:T("Tab Visual", "rbxassetid://10723346959");
-local v75 = v66:T("Tab Raid", "rbxassetid://10723345749");
-local v76 = v66:T("Tab Teleport", "rbxassetid://10723434557");
-local v77 = v66:T("Tab Shop", "rbxassetid://10734952479");
-local v78 = v66:T("Tab Devil Fruit", "rbxassetid://10709761889");
-local v79 = v66:T("Tab Miscellaneous", "rbxassetid://10709782582");
+local v67 = v66:T("Tab Status", "rbxassetid://112528931029640");
+local v68 = v66:T("Tab General", "rbxassetid://112528931029640");
+local v69 = v66:T("Tab Setting Other", "rbxassetid://112528931029640");
+local v70 = v66:T("Tab Item", "rbxassetid://112528931029640");
+local v71 = v66:T("Tab Race & Mirage", "rbxassetid://112528931029640");
+local v72 = v66:T("Tab Sea Event", "rbxassetid://112528931029640");
+local v73 = v66:T("Tab Local Player", "rbxassetid://112528931029640");
+local v74 = v66:T("Tab Visual", "rbxassetid://112528931029640");
+local v75 = v66:T("Tab Raid", "rbxassetid://112528931029640");
+local v76 = v66:T("Tab Teleport", "rbxassetid://112528931029640");
+local v77 = v66:T("Tab Shop", "rbxassetid://112528931029640");
+local v78 = v66:T("Tab Devil Fruit", "rbxassetid://112528931029640");
+local v79 = v66:T("Tab Miscellaneous", "rbxassetid://112528931029640");
 v67:Seperator("Join Discord");
-v67:Label("Everyone Goes Into Socialize");
-v67:Button("Copy Discord Link", function()
-	setclipboard("https://discord.gg/tenroblox");
+v67:Label("Tik Tok");
+v67:Button("Follow 💕", function()
+	setclipboard("https://www.tiktok.com/@hnc_roblox?_t=ZS-8ymKRiz9xI2&_r=1");
 end);
 v67:Seperator("Time");
 Time = v67:Label("Executer Time");
@@ -9979,7 +9979,7 @@ v74:Toggle("Esp Mystic Island", false, function(v442)
 end);
 v74:Seperator("Troll");
 v74:Button("Rain Fruit", function()
-	for v827, v828 in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
+	for v827, v828 in pairs(game:GetObjects("rbxassetid://112528931029640")[1]:GetChildren()) do
 		v828.Parent = game.Workspace.Map;
 		v828:MoveTo(game.Players.LocalPlayer.Character.PrimaryPart.Position + Vector3.new(math.random( -50, 50), 100, math.random( -50, 50)) );
 		if v828.Fruit:FindFirstChild("AnimationController") then
@@ -10247,7 +10247,7 @@ v74:Button("Kaitun Cap", function(v471)
 	for v863, v864 in pairs(v472) do
 		if (v495[v864] and (game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"   .. v864 , true) == 1)) then
 			local v1663 = Instance.new("ImageLabel", v496);
-			v1663.Image = "rbxassetid://120225267909374";
+			v1663.Image = "rbxassetid://112528931029640";
 			v1663.ImageRectSize = Vector2.new(100, 100);
 			v1663.ImageRectOffset = v495[v864] * 100 ;
 		end
